@@ -25,16 +25,16 @@ git clone https://github.com/RAG-Langchain.git
 ```bash
 pip install -r requirements.txt
 ```
-
+3. Navigate to the project directory:
 ```bash
 cd RAG-Langchain
 ```
 
-Create a .env file in the project directory and add your OpenAI API key:
+4. Create a .env file in the project directory and add your OpenAI API key:
 ```plaintext
 OPEN_AI_KEY=your_openai_api_key_here
 ```
-
+5. Run application:
 ```bash
 streamlit run app.py
 ```
